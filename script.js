@@ -4,12 +4,9 @@ createApp({
         return { 
             message: 'Hello Vue',
             img: 'gatto.jpg',
+            alt: 'gatto',
             width: 'width'
         }
     },
-    methods: {
-        toogleClass() {
-            this.miaclasse = 'blue';
-        },
-    }
+    
 }).mount('#app');
